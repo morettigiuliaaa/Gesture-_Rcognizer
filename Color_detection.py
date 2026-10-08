@@ -3,7 +3,7 @@ from PIL import Image
 from util import get_limits
 
 
-colore = [255, 0, 0]
+colore = (0, 255, 0)
 #WEBCAM
 webcam = cv2.VideoCapture(0) #Leggo la webcam del computer 0(camera principale), 1(secondaria), 2(terziaria), etc...
 # Creo un ciclo while che continua finché la variabile è vera, nella webcam non c'è bisogno di una variabile booleana perché la webcam 
